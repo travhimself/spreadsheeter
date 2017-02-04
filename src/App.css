@@ -1,24 +1,69 @@
-.App {
-  text-align: center;
+.app {
+    text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.app-header {
+    background-color: #222;
+    padding: 40px;
+    color: white;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.app-header h2 {
+    margin: 0
 }
 
-.App-intro {
-  font-size: large;
+.app-body {
+    color: #222;
+    padding: 40px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.app-body .inputoutput {
+
+}
+
+.app-body .inputoutput .input {
+
+}
+
+.app-body .inputoutput .input .uploader {
+    width: 200px;
+    height: 200px;
+    border: 4px dashed #222;
+    margin: 0 auto;
+    background-color: transparent;
+    background-image: url(./cloud-upload.svg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+}
+
+.app-body .inputoutput .input .uploader.uploaderactive {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.app-body .inputoutput .output {
+    margin-top: 40px;
+}
+
+.app-body .inputoutput .output .filename {
+    margin-bottom: 20px;
+}
+
+.app-body .inputoutput .output table.spreadsheet {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.app-body .inputoutput .output table.spreadsheet tr {
+
+}
+
+.app-body .inputoutput .output table.spreadsheet tr:first-child {
+    background: #eee;
+}
+
+.app-body .inputoutput .output table.spreadsheet tr td {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    text-align: left;
 }
